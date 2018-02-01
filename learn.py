@@ -113,14 +113,7 @@ def train_neural_network():
     # Plot Results: 
     
     cm = normalised_confusion_matrix
-    import itertools
-    cm = normalised_confusion_matrix
-    np.set_printoptions(precision=2)
-    print('Confusion matrix, without normalization')
-    print(cm)
-    
     data = cm 
-    
     width = 12
     height = 12
     LABELS = list(n for _, n in activity_map)
