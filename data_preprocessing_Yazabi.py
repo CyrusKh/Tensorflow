@@ -31,7 +31,6 @@ def make_sure_data_is_downloaded():
             z.extractall(save_path)    
             print("UCI HAR Dataset prepared")
         print("")
-    
     return 
 
 
