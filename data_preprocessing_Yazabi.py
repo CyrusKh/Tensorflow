@@ -77,7 +77,7 @@ def read_data():
 
 def combine_into_df(train_x, har_data_y, test_x, har_test_y, activity_map): 
     """
-    Given the ipur params, combines the feature and label columns into one dataframe
+    Given the iput params, combines the feature and label columns into one dataframe
     
     :param train_x: train df containing feature space
     :param har_data_y: df containing labels for train set
